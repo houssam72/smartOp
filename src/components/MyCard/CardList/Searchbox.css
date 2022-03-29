@@ -1,0 +1,36 @@
+.div_searchbox{
+	
+}
+.filterInput{
+	background:linear-gradient(148deg, rgba(46,131,166,1) 27%, rgba(17,62,98,1) 71%, rgba(11,8,102,1) 100%);
+
+}
+
+.filterInput::placeholder{
+	color: #dfc9c9;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
+.autocompleteText ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
+ 	background:linear-gradient(129deg, rgba(208,139,139,1) 13%, rgba(215,74,67,1) 43%, rgba(20,10,10,1) 92%); ;
+  width: 215px;
+}
+
+.autocompleteText li {
+  padding: 5px;
+  cursor: pointer;
+  font-style: italic;
+	text-align: center;
+	color: #dfc9c9;
+}
+
+ .autocompleteText li:hover{
+  color: black;
+}
